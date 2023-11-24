@@ -23,12 +23,30 @@
             </intent-filter>
             <intent-filter android:label="Action deeplink">
                 <action android:name="android.intent.action.VIEW" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="android.intent.category.BROWSABLE" />
-                <data android:scheme="https"
+
+                <data
                     android:host="just_code.kz"
-                    android:pathPrefix="/main">
-                </data>
+                    android:pathPrefix="/main"
+                    android:scheme="https"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="true"
+            android:label="Second Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="just_code.kz"
+                    android:pathPrefix="/details"
+                    android:scheme="https"/>
             </intent-filter>
         </activity>
     </application>
