@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "133656578121",
+    "project_id": "notification-app-homework",
+    "storage_bucket": "notification-app-homework.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133656578121:android:b8ba26dd6e2d9a1e345798",
+        "android_client_info": {
+          "package_name": "kz.just_code.notifications_homework"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwJBuNJRBdvvUz6SqynrQSNAGcoBq_nY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
